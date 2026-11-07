@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+  <defs>
+    <linearGradient id="t2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e5c9"/>
+      <stop offset="1" stop-color="#c9d8b8"/>
+    </linearGradient>
+    <linearGradient id="t2cliff" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4e6a4d"/>
+      <stop offset="1" stop-color="#2f4536"/>
+    </linearGradient>
+    <linearGradient id="t2cliff2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#65815f"/>
+      <stop offset="1" stop-color="#3d5742"/>
+    </linearGradient>
+    <linearGradient id="t2water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7f1e9"/>
+      <stop offset="0.5" stop-color="#b9d8d1"/>
+      <stop offset="1" stop-color="#7fae9f"/>
+    </linearGradient>
+    <linearGradient id="t2pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ac3b6"/>
+      <stop offset="1" stop-color="#5d8a7d"/>
+    </linearGradient>
+    <filter id="t2blur">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1100" fill="url(#t2sky)"/>
+  <circle cx="700" cy="130" r="140" fill="#fff6d8" opacity="0.55" filter="url(#t2blur)"/>
+  <circle cx="700" cy="130" r="48" fill="#fff6d8"/>
+
+  <path d="M0 250 C 120 190 250 230 360 200 C 470 170 600 220 900 180 L900 1100 L0 1100 Z" fill="#9db28b" opacity="0.55"/>
+
+  <path d="M0 300 L180 260 L240 330 L230 520 L300 610 L260 780 L320 900 L240 1100 L0 1100 Z" fill="url(#t2cliff)"/>
+  <path d="M900 280 L740 250 L670 340 L700 520 L630 640 L680 800 L610 920 L700 1100 L900 1100 Z" fill="url(#t2cliff)"/>
+
+  <path d="M240 360 C 300 340 340 380 360 430 L380 900 L250 900 Z" fill="url(#t2cliff2)"/>
+  <path d="M660 340 C 600 330 560 380 545 440 L530 900 L660 900 Z" fill="url(#t2cliff2)"/>
+
+  <path d="M352 400 C 380 380 520 380 552 410 L540 900 L360 900 Z" fill="url(#t2water)"/>
+  <g stroke="#f2f8f0" stroke-width="7" opacity="0.65" stroke-linecap="round" fill="none">
+    <path d="M392 430 C 402 540 392 660 406 800"/>
+    <path d="M432 418 C 440 540 428 680 444 840"/>
+    <path d="M476 416 C 486 550 474 690 490 830"/>
+    <path d="M512 424 C 520 540 510 660 522 800"/>
+  </g>
+  <g stroke="#d7e9df" stroke-width="14" opacity="0.35" stroke-linecap="round" fill="none">
+    <path d="M370 430 C 380 560 370 700 384 860"/>
+    <path d="M532 430 C 540 560 532 700 544 860"/>
+  </g>
+
+  <ellipse cx="450" cy="900" rx="250" ry="70" fill="#d7e9df" opacity="0.5"/>
+  <path d="M180 900 C 300 840 600 840 720 900 C 760 930 740 1010 690 1040 C 520 1100 300 1100 200 1040 C 150 1010 140 930 180 900 Z" fill="url(#t2pool)"/>
+  <g stroke="#e8f2ea" stroke-width="4" opacity="0.55" fill="none">
+    <path d="M250 960 q60 -18 120 0 q60 18 120 0"/>
+    <path d="M310 1000 q55 -14 110 0 q55 14 110 0"/>
+    <path d="M390 1040 q40 -10 80 0"/>
+  </g>
+
+  <g fill="#2f4536">
+    <path d="M0 1000 C 80 940 160 960 210 1010 C 150 1060 60 1080 0 1080 Z"/>
+    <path d="M900 990 C 820 930 740 960 690 1010 C 750 1060 840 1080 900 1080 Z"/>
+  </g>
+
+  <g fill="#3d5742">
+    <path d="M120 260 C 90 210 100 160 140 130 C 170 180 160 230 120 260 Z"/>
+    <path d="M120 260 C 160 220 210 220 240 250 C 200 280 160 280 120 260 Z"/>
+    <path d="M760 250 C 730 200 740 150 780 120 C 810 170 800 220 760 250 Z"/>
+    <path d="M760 250 C 800 210 850 210 880 240 C 840 270 800 270 760 250 Z"/>
+  </g>
+
+  <g fill="#5f7a61" opacity="0.8">
+    <path d="M80 620 C 50 580 50 530 80 500 C 110 540 110 590 80 620 Z"/>
+    <path d="M80 620 C 120 590 160 600 180 630 C 140 650 110 645 80 620 Z"/>
+    <path d="M820 560 C 790 520 790 470 820 440 C 850 480 850 530 820 560 Z"/>
+    <path d="M820 560 C 860 530 900 540 920 570 C 880 590 850 585 820 560 Z"/>
+  </g>
+
+  <g stroke="#3a4a38" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M300 190 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M360 160 q7 -7 14 0 q7 -7 14 0"/>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="t4bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe4ca"/>
+      <stop offset="0.6" stop-color="#e3d3b1"/>
+      <stop offset="1" stop-color="#c9b58d"/>
+    </linearGradient>
+    <linearGradient id="t4table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8835f"/>
+      <stop offset="1" stop-color="#7d5d43"/>
+    </linearGradient>
+    <linearGradient id="t4cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ea"/>
+      <stop offset="1" stop-color="#d8cdb6"/>
+    </linearGradient>
+    <radialGradient id="t4glow">
+      <stop offset="0" stop-color="#fff8e2" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff8e2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#t4bg)"/>
+  <circle cx="920" cy="150" r="240" fill="url(#t4glow)"/>
+  <circle cx="920" cy="150" r="70" fill="#fff6d8" opacity="0.75"/>
+
+  <path d="M0 470 C 250 430 480 470 700 446 C 920 422 1080 456 1200 438 L1200 700 L0 700 Z" fill="url(#t4table)"/>
+  <path d="M0 500 C 260 462 480 502 720 476 C 940 454 1080 486 1200 470" stroke="#d6bc93" stroke-width="4" fill="none" opacity="0.5"/>
+
+  <g transform="translate(250 290)">
+    <ellipse cx="90" cy="196" rx="130" ry="22" fill="#5e452f" opacity="0.3"/>
+    <path d="M20 90 L160 90 L146 196 L34 196 Z" fill="url(#t4cup)"/>
+    <path d="M160 108 C 220 108 222 176 158 176" fill="none" stroke="#d8cdb6" stroke-width="18"/>
+    <ellipse cx="90" cy="90" rx="70" ry="16" fill="#5a4030"/>
+    <ellipse cx="90" cy="90" rx="56" ry="11" fill="#3b2a1f"/>
+    <path d="M58 62 C 64 40 78 30 92 26" stroke="#f7f3ea" stroke-width="5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M96 58 C 104 38 118 30 132 28" stroke="#f7f3ea" stroke-width="4" fill="none" opacity="0.45" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(560 300)">
+    <ellipse cx="70" cy="180" rx="120" ry="20" fill="#5e452f" opacity="0.28"/>
+    <path d="M0 50 L140 50 L126 178 L14 178 Z" fill="#b98c5a"/>
+    <path d="M14 178 L126 178 L120 196 L20 196 Z" fill="#8f673f"/>
+    <path d="M18 78 L122 78 M20 108 L120 108 M22 138 L118 138" stroke="#8f673f" stroke-width="5" opacity="0.6"/>
+    <path d="M0 50 L140 50 L132 20 L8 20 Z" fill="#8f673f"/>
+    <path d="M42 20 C 46 0 58 -12 70 -12 C 82 -12 94 0 98 20" fill="none" stroke="#8f673f" stroke-width="9"/>
+  </g>
+
+  <g transform="translate(840 330)">
+    <ellipse cx="100" cy="160" rx="150" ry="24" fill="#5e452f" opacity="0.28"/>
+    <path d="M20 40 C 20 10 180 10 180 40 L168 158 C 168 180 32 180 32 158 Z" fill="#c9a227" opacity="0.82"/>
+    <path d="M36 62 L164 62 M38 88 L162 88 M40 114 L160 114 M42 140 L158 140" stroke="#8f6f1b" stroke-width="4" opacity="0.4"/>
+    <ellipse cx="100" cy="40" rx="80" ry="14" fill="#e7c877"/>
+    <path d="M100 40 L100 160 M36 62 C 70 78 130 78 164 62" stroke="#8f6f1b" stroke-width="3" opacity="0.35" fill="none"/>
+  </g>
+
+  <g fill="#5a4030">
+    <ellipse cx="640" cy="560" rx="22" ry="14" transform="rotate(-22 640 560)"/>
+    <path d="M622 556 C 632 548 646 552 652 560" stroke="#8f673f" stroke-width="3" fill="none"/>
+    <ellipse cx="720" cy="590" rx="22" ry="14" transform="rotate(18 720 590)"/>
+    <path d="M704 596 C 714 604 728 600 734 592" stroke="#8f673f" stroke-width="3" fill="none"/>
+    <ellipse cx="790" cy="548" rx="20" ry="13" transform="rotate(-8 790 548)"/>
+    <path d="M774 548 C 784 540 798 544 804 552" stroke="#8f673f" stroke-width="3" fill="none"/>
+    <ellipse cx="560" cy="600" rx="20" ry="13" transform="rotate(30 560 600)"/>
+    <path d="M544 606 C 554 614 568 610 574 602" stroke="#8f673f" stroke-width="3" fill="none"/>
+  </g>
+
+  <g fill="#4c684c">
+    <path d="M1080 470 C 1050 430 1050 380 1080 350 C 1110 390 1110 440 1080 470 Z"/>
+    <path d="M1080 470 C 1120 440 1160 450 1180 480 C 1140 500 1110 495 1080 470 Z"/>
+    <path d="M1080 470 C 1040 440 1000 450 980 480 C 1020 500 1050 495 1080 470 Z"/>
+  </g>
+
+  <g stroke="#7d5d43" stroke-width="3" opacity="0.5" fill="none">
+    <path d="M100 520 q20 -14 40 0"/>
+    <path d="M150 540 q16 -10 32 0"/>
+  </g>
+</svg>

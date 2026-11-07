@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="w2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe4c9"/>
+      <stop offset="1" stop-color="#b7c9a6"/>
+    </linearGradient>
+    <linearGradient id="w2cliff" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4e6a4d"/>
+      <stop offset="1" stop-color="#2c4133"/>
+    </linearGradient>
+    <linearGradient id="w2cliff2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b8564"/>
+      <stop offset="1" stop-color="#3d5742"/>
+    </linearGradient>
+    <linearGradient id="w2water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf2ea"/>
+      <stop offset="0.5" stop-color="#b9d8d1"/>
+      <stop offset="1" stop-color="#7fae9f"/>
+    </linearGradient>
+    <linearGradient id="w2pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ac3b6"/>
+      <stop offset="1" stop-color="#5d8a7d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#w2sky)"/>
+  <circle cx="930" cy="120" r="120" fill="#fff6d8" opacity="0.45"/>
+  <circle cx="930" cy="120" r="44" fill="#fff6d8"/>
+
+  <path d="M0 220 C 160 160 320 210 480 180 C 660 146 820 200 1200 150 L1200 800 L0 800 Z" fill="#9db28b" opacity="0.5"/>
+
+  <path d="M0 180 L260 140 L330 260 L300 460 L390 600 L340 800 L0 800 Z" fill="url(#w2cliff)"/>
+  <path d="M1200 160 L940 130 L860 260 L900 460 L800 620 L860 800 L1200 800 Z" fill="url(#w2cliff)"/>
+
+  <path d="M330 300 C 420 270 470 300 500 350 L520 800 L320 800 Z" fill="url(#w2cliff2)"/>
+  <path d="M880 290 C 790 270 730 310 700 360 L680 800 L890 800 Z" fill="url(#w2cliff2)"/>
+
+  <path d="M500 350 C 540 330 670 330 700 360 L680 800 L520 800 Z" fill="url(#w2water)"/>
+  <g stroke="#f2f8f0" stroke-width="7" opacity="0.6" stroke-linecap="round" fill="none">
+    <path d="M540 380 C 550 480 540 600 552 760"/>
+    <path d="M585 368 C 594 480 582 620 596 780"/>
+    <path d="M630 370 C 640 490 628 630 642 770"/>
+    <path d="M670 382 C 678 480 668 600 680 750"/>
+  </g>
+  <g stroke="#d7e9df" stroke-width="13" opacity="0.3" stroke-linecap="round" fill="none">
+    <path d="M520 380 C 530 500 520 640 534 790"/>
+    <path d="M686 380 C 694 500 686 640 698 790"/>
+  </g>
+
+  <ellipse cx="600" cy="760" rx="280" ry="60" fill="#d7e9df" opacity="0.45"/>
+  <path d="M300 740 C 420 690 780 690 900 740 C 940 770 920 800 880 800 L320 800 C 280 800 260 770 300 740 Z" fill="url(#w2pool)"/>
+  <g stroke="#e8f2ea" stroke-width="4" opacity="0.5" fill="none">
+    <path d="M380 750 q70 -16 140 0 q70 16 140 0 q70 -16 140 0"/>
+    <path d="M460 780 q60 -12 120 0 q60 12 120 0"/>
+  </g>
+
+  <g fill="#2c4133">
+    <path d="M0 700 C 90 650 170 680 220 730 C 160 780 70 800 0 800 Z"/>
+    <path d="M1200 690 C 1110 640 1030 670 980 720 C 1040 770 1130 800 1200 800 Z"/>
+  </g>
+
+  <g fill="#3d5742">
+    <path d="M250 170 C 220 120 230 70 270 40 C 300 90 290 140 250 170 Z"/>
+    <path d="M250 170 C 290 130 340 130 370 160 C 330 190 290 190 250 170 Z"/>
+    <path d="M960 160 C 930 110 940 60 980 30 C 1010 80 1000 130 960 160 Z"/>
+    <path d="M960 160 C 1000 120 1050 120 1080 150 C 1040 180 1000 180 960 160 Z"/>
+  </g>
+
+  <g fill="#5f7a61" opacity="0.8">
+    <path d="M170 480 C 140 440 140 390 170 360 C 200 400 200 450 170 480 Z"/>
+    <path d="M170 480 C 210 450 250 460 270 490 C 230 510 200 505 170 480 Z"/>
+    <path d="M1030 470 C 1000 430 1000 380 1030 350 C 1060 390 1060 440 1030 470 Z"/>
+    <path d="M1030 470 C 1070 440 1110 450 1130 480 C 1090 500 1060 495 1030 470 Z"/>
+  </g>
+
+  <g stroke="#3a4a38" stroke-width="2" fill="none" opacity="0.45">
+    <path d="M420 180 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M480 150 q7 -7 14 0 q7 -7 14 0"/>
+  </g>
+</svg>

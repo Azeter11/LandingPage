@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="u2bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1e5c9"/>
+      <stop offset="1" stop-color="#d8bf92"/>
+    </linearGradient>
+    <linearGradient id="u2glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6dda6" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#b97f2e" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="u2glow">
+      <stop offset="0" stop-color="#fff8e2" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff8e2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#u2bg)"/>
+  <circle cx="560" cy="190" r="220" fill="url(#u2glow)"/>
+  <circle cx="400" cy="410" r="250" fill="#5a4a3a" opacity="0.92"/>
+
+  <g transform="translate(290 210)">
+    <ellipse cx="110" cy="470" rx="140" ry="20" fill="#2f241c" opacity="0.3"/>
+    <path d="M40 120 C 40 80 180 80 180 120 L170 430 C 170 458 50 458 50 430 Z" fill="url(#u2glass)"/>
+    <path d="M40 120 C 40 80 180 80 180 120 L176 190 C 150 210 70 210 44 190 Z" fill="#8a5a1f" opacity="0.8"/>
+    <path d="M58 250 L162 250 L158 410 L62 410 Z" fill="#efe4cc" opacity="0.92"/>
+    <circle cx="110" cy="292" r="22" fill="#5a4a3a"/>
+    <path d="M110 278 C 120 286 122 296 110 306 C 98 296 100 286 110 278 Z" fill="#c9a227"/>
+    <path d="M80 336 L140 336" stroke="#8a5a1f" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+    <path d="M88 354 L132 354" stroke="#8a5a1f" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    <rect x="60" y="72" width="100" height="42" rx="8" fill="#3f5642"/>
+    <path d="M76 82 L144 82" stroke="#8fa77a" stroke-width="3" opacity="0.6"/>
+  </g>
+
+  <g fill="#7d5d43">
+    <path d="M150 620 L250 620 L250 680 L150 680 Z" rx="8"/>
+    <path d="M150 620 L250 620 L250 650 L150 650 Z" fill="#5a4a3a"/>
+    <path d="M170 700 L280 700 L280 750 L170 750 Z"/>
+    <path d="M170 700 L280 700 L280 726 L170 726 Z" fill="#5a4a3a"/>
+  </g>
+
+  <g fill="#4c684c">
+    <path d="M110 260 C 80 220 80 170 110 140 C 140 180 140 230 110 260 Z"/>
+    <path d="M110 260 C 150 230 190 240 210 270 C 170 290 140 285 110 260 Z"/>
+    <path d="M680 560 C 650 520 650 470 680 440 C 710 480 710 530 680 560 Z"/>
+    <path d="M680 560 C 720 530 760 540 780 570 C 740 590 710 585 680 560 Z"/>
+  </g>
+
+  <g stroke="#8a5a1f" stroke-width="3" opacity="0.4" fill="none">
+    <path d="M580 660 q24 -16 48 0"/>
+    <path d="M620 690 q20 -12 40 0"/>
+  </g>
+
+  <rect x="40" y="40" width="720" height="720" rx="24" fill="none" stroke="#5a4a3a" stroke-width="1.4" opacity="0.18"/>
+</svg>

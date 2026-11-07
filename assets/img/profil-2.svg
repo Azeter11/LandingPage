@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="p2bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e6c9"/>
+      <stop offset="1" stop-color="#d8ddb9"/>
+    </linearGradient>
+    <linearGradient id="p2leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7f9a70"/>
+      <stop offset="1" stop-color="#3f5944"/>
+    </linearGradient>
+    <radialGradient id="p2glow">
+      <stop offset="0" stop-color="#fff7d6" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff7d6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#p2bg)"/>
+  <circle cx="590" cy="190" r="210" fill="url(#p2glow)"/>
+  <circle cx="590" cy="190" r="70" fill="#fff5cf" opacity="0.9"/>
+
+  <g stroke="#5f7a61" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M120 800 C 150 610 190 470 280 330"/>
+    <path d="M220 800 C 250 620 300 470 390 340"/>
+    <path d="M330 800 C 350 630 400 500 500 370"/>
+    <path d="M450 800 C 470 650 520 520 620 400"/>
+    <path d="M570 800 C 590 670 640 560 730 450"/>
+  </g>
+
+  <g fill="url(#p2leaf)">
+    <path d="M280 330 C 230 300 220 240 250 200 C 300 240 310 290 280 330 Z"/>
+    <path d="M280 330 C 320 280 370 270 410 290 C 380 340 330 350 280 330 Z"/>
+    <path d="M390 340 C 340 300 340 230 380 190 C 420 240 430 300 390 340 Z"/>
+    <path d="M390 340 C 440 300 490 300 520 330 C 480 370 430 370 390 340 Z"/>
+    <path d="M500 370 C 470 320 480 260 520 230 C 550 290 540 340 500 370 Z"/>
+    <path d="M500 370 C 550 340 600 350 620 390 C 570 410 530 400 500 370 Z"/>
+    <path d="M620 400 C 600 350 620 300 660 280 C 680 340 660 380 620 400 Z"/>
+    <path d="M180 520 C 130 490 120 430 150 390 C 200 430 210 480 180 520 Z"/>
+    <path d="M330 560 C 280 530 280 460 320 420 C 360 470 370 520 330 560 Z"/>
+    <path d="M450 620 C 400 590 400 520 440 480 C 480 530 490 580 450 620 Z"/>
+    <path d="M600 640 C 550 610 550 540 590 500 C 630 550 640 600 600 640 Z"/>
+  </g>
+
+  <g fill="#d3b45c">
+    <g transform="translate(280 300)">
+      <path d="M0 0 C 10 -30 10 -58 0 -86" stroke="#c2a24a" stroke-width="4" fill="none"/>
+      <ellipse cx="-10" cy="-40" rx="7" ry="12" transform="rotate(-28 -10 -40)"/>
+      <ellipse cx="10" cy="-54" rx="7" ry="12" transform="rotate(24 10 -54)"/>
+      <ellipse cx="-8" cy="-66" rx="6" ry="11" transform="rotate(-22 -8 -66)"/>
+      <ellipse cx="9" cy="-76" rx="6" ry="11" transform="rotate(20 9 -76)"/>
+    </g>
+    <g transform="translate(390 310)">
+      <path d="M0 0 C 6 -28 6 -54 0 -80" stroke="#c2a24a" stroke-width="4" fill="none"/>
+      <ellipse cx="-9" cy="-38" rx="7" ry="12" transform="rotate(-26 -9 -38)"/>
+      <ellipse cx="9" cy="-50" rx="7" ry="12" transform="rotate(22 9 -50)"/>
+      <ellipse cx="-7" cy="-62" rx="6" ry="11" transform="rotate(-20 -7 -62)"/>
+      <ellipse cx="8" cy="-72" rx="6" ry="11" transform="rotate(18 8 -72)"/>
+    </g>
+    <g transform="translate(500 342)">
+      <path d="M0 0 C 8 -30 8 -56 0 -84" stroke="#c2a24a" stroke-width="4" fill="none"/>
+      <ellipse cx="-10" cy="-40" rx="7" ry="12" transform="rotate(-28 -10 -40)"/>
+      <ellipse cx="10" cy="-54" rx="7" ry="12" transform="rotate(24 10 -54)"/>
+      <ellipse cx="-8" cy="-66" rx="6" ry="11" transform="rotate(-22 -8 -66)"/>
+      <ellipse cx="9" cy="-76" rx="6" ry="11" transform="rotate(20 9 -76)"/>
+    </g>
+    <g transform="translate(180 490)">
+      <path d="M0 0 C 8 -28 8 -52 0 -78" stroke="#c2a24a" stroke-width="4" fill="none"/>
+      <ellipse cx="-9" cy="-36" rx="7" ry="12" transform="rotate(-26 -9 -36)"/>
+      <ellipse cx="9" cy="-48" rx="7" ry="12" transform="rotate(22 9 -48)"/>
+      <ellipse cx="-7" cy="-60" rx="6" ry="11" transform="rotate(-20 -7 -60)"/>
+    </g>
+    <g transform="translate(450 590)">
+      <path d="M0 0 C 6 -28 6 -52 0 -78" stroke="#c2a24a" stroke-width="4" fill="none"/>
+      <ellipse cx="-9" cy="-36" rx="7" ry="12" transform="rotate(-26 -9 -36)"/>
+      <ellipse cx="9" cy="-48" rx="7" ry="12" transform="rotate(22 9 -48)"/>
+      <ellipse cx="-7" cy="-60" rx="6" ry="11" transform="rotate(-20 -7 -60)"/>
+    </g>
+  </g>
+
+  <g fill="#6f8a64" opacity="0.5">
+    <path d="M0 760 C 150 720 300 760 450 736 C 600 712 700 744 800 724 L800 800 L0 800 Z"/>
+  </g>
+
+  <g stroke="#fff6d8" stroke-width="3" opacity="0.55" fill="none">
+    <path d="M60 150 q30 -20 60 0"/>
+    <path d="M120 110 q24 -16 48 0"/>
+  </g>
+</svg>
